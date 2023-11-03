@@ -11,3 +11,11 @@ function ThemeProvider({ children }) {
         value: "light",
         browser: "firefox",
     });
+    return (
+        <ThemeContext.Provider value={theme}>
+            <ThemeDispatchContext.Provider value={setTheme}>
+                {children}
+            </ThemeDispatchContext.Provider>
+        </ThemeContext.Provider>
+    );
+}
