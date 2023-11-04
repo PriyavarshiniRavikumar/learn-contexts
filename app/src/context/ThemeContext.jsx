@@ -33,3 +33,11 @@ function UserProvider({ children }) {
         </UserContext.Provider>
     );
 }
+export {
+    ThemeProvider,
+    ThemeContext,
+    ThemeDispatchContext,
+    UserProvider,
+    UserContext,
+    UserDispatchContext,
+};
