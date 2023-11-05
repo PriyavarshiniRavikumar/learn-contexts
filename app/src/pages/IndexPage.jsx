@@ -13,3 +13,10 @@ const IndexPage = () => {
     const [nameInput, setnameInput] = useState("");
     const [imageInput, setImageInput] = useState("");
 
+    function handleOnChange(name, value) {
+        if (name === "name") {
+            setnameInput(value);
+        } else if (name === "image") {
+            setImageInput(value);
+        }
+    }
