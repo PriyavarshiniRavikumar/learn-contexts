@@ -20,3 +20,15 @@ const IndexPage = () => {
             setImageInput(value);
         }
     }
+    function handleClick(e) {
+        e.preventDefault();
+        const updatedUser = {
+            ...userContext,
+            name: nameInput,
+            image: imageInput,
+        };
+        userDispatch(updatedUser);
+        setnameInput("");
+        setImageInput("");
+    }
+
