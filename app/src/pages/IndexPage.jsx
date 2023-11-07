@@ -31,4 +31,16 @@ const IndexPage = () => {
         setnameInput("");
         setImageInput("");
     }
+    return (
+        <Layout title="Learn Contexts ">
+            <form onSubmit={(e) => handleClick(e)}>
+                <label htmlFor="name">Name</label>
+                <input
+                    type="text"
+                    placeholder="Enter Name"
+                    name="name"
+                    value={nameInput}
+                    onChange={(e) => handleOnChange("name", e.target.value)}
+                    required
+                />
 
