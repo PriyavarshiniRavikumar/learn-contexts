@@ -43,4 +43,14 @@ const IndexPage = () => {
                     onChange={(e) => handleOnChange("name", e.target.value)}
                     required
                 />
+                <label htmlFor="image">Proifle pic</label>
+                <input
+                    id="image"
+                    type="text"
+                    placeholder="Enter url"
+                    name="image"
+                    value={imageInput}
+                    onChange={(e) => handleOnChange("image", e.target.value)}
+                    required
+                />
 
