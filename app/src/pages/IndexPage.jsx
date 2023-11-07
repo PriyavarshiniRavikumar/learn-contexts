@@ -53,4 +53,12 @@ const IndexPage = () => {
                     onChange={(e) => handleOnChange("image", e.target.value)}
                     required
                 />
+                <button type="submit">login</button>
+            </form>
+        </Layout>
+    );
+};
+
+export default IndexPage;
+
 
