@@ -8,6 +8,9 @@ use contexts to store the states that are used in all parts of the app
 
 ThemeContext and UserContext in ThemeContexts from context
 
+## Use pico css for styling.
+
+
 ## to run the app
 
     npm run dev
