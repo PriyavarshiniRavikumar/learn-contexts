@@ -9,7 +9,7 @@ use contexts to store the states that are used in all parts of the app
 ThemeContext and UserContext in ThemeContexts from context
 
 ## Use pico css for styling.
-## use material ui for avatar
+## use material ui for avatar and tool tip
 
 ## to run the app
 
